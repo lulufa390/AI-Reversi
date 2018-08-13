@@ -1,0 +1,31 @@
+﻿生成启动时间为 2018/4/25 11:36:34。
+     1>项目“C:\software\reverse\reversi-0-1\reversi-0-1.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtMoc:
+         cmd.exe /C "C:\Users\lulufa\AppData\Local\Temp\tmpc09ce855121e4cfe8d425827bfd05206.cmd"
+         echo Moc'ing mainwindow.h...;C:\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\bin\moc.exe;"C:\software\reverse\reversi-0-1\mainwindow.h" -o ".\GeneratedFiles\Debug\moc_mainwindow.cpp" "-I.\GeneratedFiles\Debug" "-I.\GeneratedFiles" "-IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/mkspecs/win32-msvc2013" "-I." "-IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include" "-IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtWidgets" "-IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtGui" "-IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtANGLE" "-IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtCore" -DUNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1800 -D_WIN32 -D_WIN64  >> "C:\software\reverse\reversi-0-1\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\lulufa\AppData\Local\Temp\tmp019267dac3f24354a46e6ff2b8e8d5fe.cmd"
+         echo Uic'ing mainwindow.ui...;C:\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\bin\uic.exe;"C:\software\reverse\reversi-0-1\mainwindow.ui" -o ".\GeneratedFiles\ui_mainwindow.h"  >> "C:\software\reverse\reversi-0-1\x64\Debug\qt.txt"
+       QtFinalize:
+         Moc'ing mainwindow.h...
+         Uic'ing mainwindow.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles\Debug /I.\GeneratedFiles /I. /I..\..\..\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\include /I..\..\..\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\include\QtWidgets /I..\..\..\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\include\QtGui /I..\..\..\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\include\QtANGLE /I..\..\..\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\include\QtCore /Idebug /I"..\..\..\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /MP /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 mainwindow.cpp reversi.cpp
+         mainwindow.cpp
+         reversi.cpp
+     1>reversi.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>reversi.cpp(438): warning C4189: “cnt”: 局部变量已初始化但不引用
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles\Debug /I.\GeneratedFiles /I"C:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/mkspecs/win32-msvc2013" /I. /IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include /IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtWidgets /IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtGui /IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtANGLE /IC:/SOFTWARE/QT/INSTALL/5.7/MSVC2013_64/include/QtCore /Zi /nologo /W3 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D _MSC_VER=1800 /D _WIN32 /D _WIN64 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 .\GeneratedFiles\Debug\moc_mainwindow.cpp
+         moc_mainwindow.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\reversi-0-1.exe" /NOLOGO /LIBPATH:C:\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\software\Qt\Install\5.7\msvc2013_64\lib C:\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\lib\qtmaind.lib shell32.lib C:\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\lib\Qt5Widgetsd.lib C:\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\lib\Qt5Guid.lib C:\SOFTWARE\QT\INSTALL\5.7\MSVC2013_64\lib\Qt5Cored.lib opencv_calib3d330d.lib opencv_core330d.lib opencv_dnn330d.lib opencv_features2d330d.lib opencv_flann330d.lib opencv_highgui330d.lib opencv_imgcodecs330d.lib opencv_imgproc330d.lib opencv_ml330d.lib opencv_objdetect330d.lib opencv_photo330d.lib opencv_shape330d.lib opencv_stitching330d.lib opencv_superres330d.lib opencv_video330d.lib opencv_videoio330d.lib opencv_videostab330d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\reversi-0-1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\main.obj
+         x64\Debug\mainwindow.obj
+         x64\Debug\reversi.obj
+         x64\Debug\treenode.obj
+         x64\Debug\moc_mainwindow.obj
+         reversi-0-1.vcxproj -> C:\software\reverse\reversi-0-1\debug\reversi-0-1.exe
+     1>已完成生成项目“C:\software\reverse\reversi-0-1\reversi-0-1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.81
